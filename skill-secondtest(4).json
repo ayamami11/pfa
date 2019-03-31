@@ -1,0 +1,3634 @@
+{
+  "name": "secondtest",
+  "intents": [
+    {
+      "intent": "contact",
+      "examples": [
+        {
+          "text": "le fax?"
+        },
+        {
+          "text": "contact"
+        },
+        {
+          "text": "c'est quoi votre numéro de téléphone ?"
+        },
+        {
+          "text": "comment pourrais- je vous contacter ?"
+        },
+        {
+          "text": "donner moi le numéro de fax"
+        },
+        {
+          "text": "donner moi le numéro de téléphone"
+        },
+        {
+          "text": "le numéro de téléphone ?"
+        },
+        {
+          "text": "où se trouve le bureau de scolarité ?"
+        },
+        {
+          "text": "Quel est le numéro de votre fax?"
+        },
+        {
+          "text": "Quels sont vos coordonnées ?"
+        },
+        {
+          "text": "qui est le responsable de scolarité ?"
+        },
+        {
+          "text": "scolarité"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "remerciement",
+      "examples": [
+        {
+          "text": "merci"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "merci beaucoup"
+        },
+        {
+          "text": "c'est gentil de votre part"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "location",
+      "examples": [
+        {
+          "text": "comment puis-je rejoindre l'INSAT ?"
+        },
+        {
+          "text": "où se trouve l'INSAT ?"
+        },
+        {
+          "text": "existe-t-il un bus ou un moyen de transport public qui mène à l'INSAT ?"
+        },
+        {
+          "text": "comment puis-je aller à l'INSAT ?"
+        },
+        {
+          "text": "localisation de l'insat"
+        }
+      ],
+      "description": "cet intent sert à donner la localisation de l'INSAT"
+    },
+    {
+      "intent": "scolarité",
+      "examples": [
+        {
+          "text": "contact"
+        },
+        {
+          "text": "quel est le dossier nécessaire pour faire l'inscription universitaire ?"
+        },
+        {
+          "text": "comment puis-je m'inscrire à l'INSAT ?"
+        },
+        {
+          "text": "quels sont les formulaires administratifs disponibles ?"
+        },
+        {
+          "text": "quelle est la charte des examens ?"
+        },
+        {
+          "text": "quel est le contenu de la bibliothèque de l'IN23"
+        },
+        {
+          "text": "charte des examens"
+        }
+      ],
+      "description": "cet intent sert à donner des informations sur les documents voulus par un étudiant de l'INSAT ?"
+    },
+    {
+      "intent": "cours",
+      "examples": [
+        {
+          "text": "comment je peux accéder au cours de IBM?"
+        },
+        {
+          "text": "formation REDHAT"
+        },
+        {
+          "text": "je veux le cours de STM32"
+        },
+        {
+          "text": "IBM"
+        },
+        {
+          "text": "LORAwan"
+        },
+        {
+          "text": "certif IBM"
+        },
+        {
+          "text": "comment je peux m'inscrire au cours de LORAwan?"
+        },
+        {
+          "text": "cours ibm"
+        },
+        {
+          "text": "cours redhat"
+        },
+        {
+          "text": "Formation IBM"
+        },
+        {
+          "text": "INCRIPTION IBm"
+        },
+        {
+          "text": "inscription cours red hat"
+        },
+        {
+          "text": "je veux le cours de LORAwan"
+        },
+        {
+          "text": "redhat"
+        },
+        {
+          "text": "red-hat"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "salutation",
+      "examples": [
+        {
+          "text": "salut"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "département",
+      "examples": [
+        {
+          "text": "bio"
+        },
+        {
+          "text": "que est le rôle des départements ?"
+        },
+        {
+          "text": "chimie"
+        },
+        {
+          "text": "biologie"
+        },
+        {
+          "text": "département de sciences sociales"
+        },
+        {
+          "text": "quel est le département de mathématique ?"
+        },
+        {
+          "text": "Quels sont les filères dont le département de génie physiques et instrumentation est responsable ?"
+        },
+        {
+          "text": "Qui est le responsable de département physique ?"
+        },
+        {
+          "text": "département de génie physique et instrumentatio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "stage",
+      "examples": [
+        {
+          "text": "comment je peux m’informer sur les stage  ?"
+        },
+        {
+          "text": "les stages de l'insat ?"
+        },
+        {
+          "text": "qui est le responsable de stage ?"
+        },
+        {
+          "text": "stage été"
+        },
+        {
+          "text": "stage PFE"
+        },
+        {
+          "text": "types de stages ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "guide_Etudiant",
+      "examples": [
+        {
+          "text": "guide de l'étudiant ?"
+        },
+        {
+          "text": "quel est le guide de l'étudiant ?"
+        },
+        {
+          "text": "guide étudiant insat ?"
+        },
+        {
+          "text": "guide étudiant ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "accord",
+      "examples": [
+        {
+          "text": "ok"
+        },
+        {
+          "text": "d'accord"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "formation",
+      "examples": [
+        {
+          "text": "quelle est la formation de l'insat ?"
+        },
+        {
+          "text": "en quoi consiste la formation offerte par l'insat ?"
+        },
+        {
+          "text": "formation ?"
+        },
+        {
+          "text": "quel est le parcours scolaire de l'insat ?"
+        },
+        {
+          "text": "cycle prépa ?"
+        },
+        {
+          "text": "cycle ingénieur ?"
+        },
+        {
+          "text": "rt"
+        },
+        {
+          "text": "gl"
+        },
+        {
+          "text": "imi"
+        },
+        {
+          "text": "iia"
+        }
+      ],
+      "description": "cet intent sert à décrire la formation de l'insat"
+    },
+    {
+      "intent": "4C_insat",
+      "examples": [
+        {
+          "text": "4C insat ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "adresse",
+      "examples": [
+        {
+          "text": "15 rue 10"
+        },
+        {
+          "text": "ville"
+        },
+        {
+          "text": "tunis"
+        },
+        {
+          "text": "tunis ariana"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "buvette",
+      "examples": [
+        {
+          "text": "où se trouve buvette ?"
+        },
+        {
+          "text": "comment je peux aller à la buvette ?"
+        },
+        {
+          "text": "je veux manger"
+        },
+        {
+          "text": "je veux recommander du repas ? ou du fast food ?"
+        },
+        {
+          "text": "eau ?"
+        },
+        {
+          "text": "sandwich"
+        },
+        {
+          "text": "café ?"
+        },
+        {
+          "text": "je veux aller à la buvette"
+        },
+        {
+          "text": "je veux prendre l'air"
+        },
+        {
+          "text": "jardin"
+        },
+        {
+          "text": "restaurant"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "certification",
+      "examples": [
+        {
+          "text": "quels sont les certifs offertes par l'INSAT ?"
+        },
+        {
+          "text": "les certifications de l'INSAT ?"
+        },
+        {
+          "text": "DElf B2"
+        },
+        {
+          "text": "TOEIC"
+        },
+        {
+          "text": "DELF"
+        },
+        {
+          "text": "certifs"
+        },
+        {
+          "text": "certification"
+        },
+        {
+          "text": "certif"
+        },
+        {
+          "text": "certification cisco"
+        },
+        {
+          "text": "linux"
+        },
+        {
+          "text": "LPI"
+        },
+        {
+          "text": "certification LPI"
+        },
+        {
+          "text": "cisco"
+        },
+        {
+          "text": "certification linux"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "emploi",
+      "examples": [
+        {
+          "text": "mpi 4-4"
+        },
+        {
+          "text": "mpi 3-4"
+        },
+        {
+          "text": "cba 1-3"
+        },
+        {
+          "text": "rt 3-2"
+        },
+        {
+          "text": "rt 4-1"
+        },
+        {
+          "text": "rt 5-1"
+        },
+        {
+          "text": "gl 2-1"
+        },
+        {
+          "text": "gl 2-2"
+        },
+        {
+          "text": "gl 4-1"
+        },
+        {
+          "text": "imi 2-1"
+        },
+        {
+          "text": "imi 3-2"
+        },
+        {
+          "text": "rt 3-1"
+        },
+        {
+          "text": "gl 4-2"
+        },
+        {
+          "text": "gl 5-1"
+        },
+        {
+          "text": "gl 5-2"
+        },
+        {
+          "text": "rt 4-2"
+        },
+        {
+          "text": "gl 3-1"
+        },
+        {
+          "text": "gl 3-2"
+        },
+        {
+          "text": "imi 2-2"
+        },
+        {
+          "text": "imi 3-1"
+        },
+        {
+          "text": "imi 4-1"
+        },
+        {
+          "text": "imi 4-2"
+        },
+        {
+          "text": "imi 5-1"
+        },
+        {
+          "text": "bio 5-2"
+        },
+        {
+          "text": "bio 3-2"
+        },
+        {
+          "text": "bio 4-2"
+        },
+        {
+          "text": "bio 5-1"
+        },
+        {
+          "text": "ch 2-1"
+        },
+        {
+          "text": "ch 3-1"
+        },
+        {
+          "text": "ch 4-1"
+        },
+        {
+          "text": "ch 4-2"
+        },
+        {
+          "text": "ch 5-1"
+        },
+        {
+          "text": "emploi"
+        },
+        {
+          "text": "pouvez-vous me donner l'emploi du temps ?"
+        },
+        {
+          "text": "mpi 1-1"
+        },
+        {
+          "text": "cba 1-1"
+        },
+        {
+          "text": "imi 5-2"
+        },
+        {
+          "text": "bio 2-2"
+        },
+        {
+          "text": "bio 4-1"
+        },
+        {
+          "text": "cba 1-2"
+        },
+        {
+          "text": "bio 2-1"
+        },
+        {
+          "text": "cba 2-3"
+        },
+        {
+          "text": "bio 3-1"
+        },
+        {
+          "text": "ch 2-2"
+        },
+        {
+          "text": "cba 1-4"
+        },
+        {
+          "text": "cba 2-1"
+        },
+        {
+          "text": "cba 2-2"
+        },
+        {
+          "text": "cba 2-4"
+        },
+        {
+          "text": "je veux mon emploi"
+        },
+        {
+          "text": "rt 2-1"
+        },
+        {
+          "text": "rt 2-2"
+        },
+        {
+          "text": "ch 3-2"
+        },
+        {
+          "text": "ch 5-2"
+        },
+        {
+          "text": "rt 5-2"
+        },
+        {
+          "text": "mpi 1-2"
+        },
+        {
+          "text": "mpi 1-3"
+        },
+        {
+          "text": "mpi 1-4"
+        },
+        {
+          "text": "mpi 2-1"
+        },
+        {
+          "text": "mpi 2-2"
+        },
+        {
+          "text": "mpi 2-3"
+        },
+        {
+          "text": "mpi 2-4"
+        },
+        {
+          "text": "mpi 3-1"
+        },
+        {
+          "text": "mpi 3-2"
+        },
+        {
+          "text": "mpi 4-1"
+        },
+        {
+          "text": "mpi 4-2"
+        },
+        {
+          "text": "mpi 3-3"
+        },
+        {
+          "text": "mpi 4-3"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "formulaires_administratifs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Inscription",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Attestation de réussite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Relevé de notes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "formulaires administratifs",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stage",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pfe licence appliquée",
+          "synonyms": [
+            "stage de fin d'étude de licence appliquée"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PFE ingénieurs",
+          "synonyms": [
+            "stage pfe ingénieurs",
+            "pfe",
+            "stage de fin d'étude cycle ingénieur"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "été",
+          "synonyms": [
+            "satge d'été",
+            "stage 3ème",
+            "stage 4éme",
+            "stage 4eme"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "responsable",
+          "synonyms": [
+            "bureau des stages",
+            "responsable des stages",
+            "renseignements sur les stages",
+            "informations stages"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pfe mastère",
+          "synonyms": [
+            "stage de fin d'étude master",
+            "stage pfe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "niveau",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2-1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1-4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1-2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5-2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4-4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5-1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4-3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4-2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4-1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3-4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3-3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3-2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3-1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2-3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2-4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1-3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1-1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5-3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2-2",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "adresse",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cité",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ville",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "accord",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "d'accord",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "charte_examens",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "planning des examens",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "charte des examens",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dossier_inscription",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inscription",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dossier d'inscription",
+          "synonyms": [
+            "Comment puis-je m'inscrire ?",
+            "inscription à l'INSAT ?",
+            "comment s'inscrire ?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fiche de renseignement",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "règlement intérieur",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cycle_ingénieur",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "diplôme d'ingénieur",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emploi",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emploi",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cycle_prépa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mpi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cycle prépa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cycle préparatoire",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2ème Instrumentation et Maintenance Industrielle (IMI2)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2ème année  Informatique Industrielle et Automatique",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2ème année réseaux informatiques et télécommunication",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2ème année génie logiciel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cycle prepa",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ariana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "centre urbain nord",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cité sportive",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "contact",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "téléphone",
+          "synonyms": [
+            "numéro de téléphone",
+            "num tel",
+            "tel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fax",
+          "synonyms": [
+            "num fax",
+            "numéro de fax"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "service de scolarité",
+          "synonyms": [
+            "bureau de scolarité",
+            "scolarité",
+            "bureau scoloarité"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bibliothèque",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "biblio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bibliothèque",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cours",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "LORAwan",
+          "synonyms": [
+            "LORA",
+            "lorawan academy",
+            "cours iot",
+            "formation lorawan",
+            "cours lorawan",
+            "inscription lorawan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stm32",
+          "synonyms": [
+            "cours stm",
+            "cours embarqué",
+            "stm",
+            "cours stm 32"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Redhat",
+          "synonyms": [
+            "inscrption redhat",
+            "cours redhat",
+            "RED-hat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IBM",
+          "synonyms": [
+            "certif ibm",
+            "formation ibm",
+            "cours ibm",
+            "inscription ibm"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "département",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Génie Biologique et de Chimie",
+          "synonyms": [
+            "Bio",
+            "biologie",
+            "biologique",
+            "département  de chimie",
+            "chimie",
+            "département de biologie",
+            "chimie et biologie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Département de Génie Physique et Instrumentation",
+          "synonyms": [
+            "physique",
+            "instrumentation",
+            "Génie physique",
+            "physique et instrumentation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sciences sociales , langue et formation générale",
+          "synonyms": [
+            "sciences sociales",
+            "formation générale",
+            "langues",
+            "departement de sciences sociales",
+            "département des langues",
+            "département de formation générale",
+            "departement  socio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Génie Informatique et Mathématiques",
+          "synonyms": [
+            "math",
+            "département de génie Informatique et Mathématiques",
+            "département info",
+            "mathématique",
+            "departement math",
+            "departement de mathématique"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "filière",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mpi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "iia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "imi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gl",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "certif",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cisco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TOEIC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "linux",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delf B2",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cafe",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cappuccino",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "express",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "direct",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chocolat au lait",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "la bibliothèque de l'INSAT contient 16.528 ouvrages et 28.197 exemplaires dans plusieurs domaines.Pour plus d'informations vous pouvez visiter ce lien: http://www.insat.rnu.tn/Fr/bibliotheque-de-linsat_11_132"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550860671614",
+      "metadata": {},
+      "conditions": "@bibliothèque:bibliothèque",
+      "dialog_node": "node_5_1550860949527",
+      "previous_sibling": "node_4_1550860747316"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "pou s'inscrire à l'INSAT, il faut remplir et soumettre aux guichets d'inscription au Hall de l'INSAT les documents suivants : dossier d'inscription, fiche de renseignement et le règlement intérieur.Ces documents sont présents sous le lien suivant: http://www.insat.rnu.tn/Fr/dossier-dinscription-2018-2019_11_125"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1550860671614",
+      "metadata": {},
+      "conditions": "@dossier_inscription:inscription",
+      "dialog_node": "node_2_1550862577335",
+      "previous_sibling": "node_5_1550860949527"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "les formulaires administratifs disponibles sont : le formulaire pour le retrait d'inscription, formulaire assurance maladie MNEF ou MASU et le formulaire pour demande d'attestation de départ"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550860671614",
+      "metadata": {},
+      "conditions": "@formulaires_administratifs:(formulaires administratifs)",
+      "dialog_node": "node_4_1550860747316",
+      "previous_sibling": "node_3_1550860708175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "la charte des examens a pour objectif de fixer des dispositions à mettre en oeuvre  et à respecter en matière d'organisation et de validation des examens.Pour plus d'informations, vous pouvez visiter le lien suivant:  http://www.insat.rnu.tn/Fr/charte-des-examens_11_78"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1550860671614",
+      "metadata": {},
+      "conditions": "@charte_examens:(charte des examens)",
+      "dialog_node": "node_3_1550860708175"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1551290946228",
+      "dialog_node": "slot_5_1551291035847",
+      "previous_sibling": "node_1_1551293976301"
+    },
+    {
+      "type": "standard",
+      "title": "suite_g",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "n'ayez pas peur, l'INSAT est un autre monde que tu vas absolument l'admirer! n'hésitez pas à me contacter à tout moment ! au revoir"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1551290946228",
+      "metadata": {},
+      "conditions": "#remerciement",
+      "dialog_node": "node_1_1551293976301"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "il s'agit d'un test d'anglais offert pour les majors de la promotion dans les 6 filières et parmi les majors celui ou celle qui a la meilleure moyenne en anglais"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1551041735598",
+      "metadata": {},
+      "conditions": "@certif:TOEIC",
+      "dialog_node": "node_3_1551041958446",
+      "previous_sibling": "node_2_1551041763786"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vu les bons scores obtenus et le grand nombre d’enseignants certifiés, l’INSAT est devenue depuis septembre 2009 un centre agrée de certification en Linux (LPI)"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1551041735598",
+      "metadata": {},
+      "conditions": "@certif:linux",
+      "dialog_node": "node_1_1551280464980",
+      "previous_sibling": "node_3_1551041958446"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Depuis 2009, l'INSAT est devenue une académie régionale CISCO"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1551041735598",
+      "metadata": {},
+      "conditions": "@certif:cisco",
+      "dialog_node": "node_2_1551280489840",
+      "previous_sibling": "node_1_1551280464980"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dans le but de renforcer la formation des nos ingénieurs, plusieurs certifications sont mises à la disposition de nos élèves ingénieurs. Parallèlement à son diplôme d’ingénieur, l’ingénieur sortant de l’INSAT doit réussir avec un bon score, un certain nombre d’examens de certifications."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1551041735598",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_4_1551042568158",
+      "previous_sibling": "node_2_1551280489840"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Une convention cadre de partenariat signée le 04 Juillet 2013 concernant les centres d’examen du DELF Dans les universités Tunisiennes, lors de la visite d'état du Président François Hollande en 2013.Le 20 janvier 2016, signature du directeur de l’INSAT de la charte qualité régissant les relations entre la gestion centrale du DELF pour la Tunisie /Institut français de Tunisie et le centre universitaire d’examen du DELF de l’institut national des sciences appliquées et de Technologie-INSAT."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551041735598",
+      "metadata": {},
+      "conditions": "@certif:(Delf B2)",
+      "dialog_node": "node_2_1551041763786"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "les ingénieurs peuvent exercer leur compétence dans différents domaines de transmission de données, de communications locales et à distance, de l’administration des réseaux et plus généralement de l’informatique"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "@filière:rt",
+      "dialog_node": "node_1_1550914680411",
+      "previous_sibling": "node_2_1550685367284"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Les futurs diplômés de cette filière auront acquis la compétence et l’expérience pour suivre et piloter toutes les étapes du cycle de vie d’un projet leur permettant ainsi de s’intégrer parfaitement à des équipes de développement, ou encore d’assurer la responsabilité de chef de projet"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "@filière:gl",
+      "dialog_node": "node_3_1550915777341",
+      "previous_sibling": "node_2_1550915735175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La formation axée sur l’électronique, l’électrotechnique, l’automatique, la mécanique, permet la maîtrise des technologies de pointe (microprocesseurs, commande numérique, automate programmable, capteurs, etc.). De part leur formation, ces ingénieurs pourront apporter leur compétence dans les techniques d’instrumentation et d’analyse, l’organisation de la maintenance et de la sûreté de fonctionnement et d’une manière générale, ils peuvent assurer, dans leur entreprise, la fonction de veille technologique."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "@filière:imi",
+      "dialog_node": "node_1_1550915690135",
+      "previous_sibling": "node_1_1550914680411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ces ingénieurs pourront apporter leur compétence dans le développement des applications industrielles qui visent l’amélioration des processus de production, la qualité des produits et l’amélioration des conditions de travail. Ces ingénieurs pourront exercer leur activité dans les unités de production, dans les services de contrôle de qualité, de normalisation, d’environnement et dans les laboratoires de recherches ou d’études et d’une manière générale, ils participeront à la veille technologique"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "@filière:iia",
+      "dialog_node": "node_2_1550915735175",
+      "previous_sibling": "node_1_1550915690135"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "le cycle ingénieur dure 3 ans. si vous voulez plus d'informations veuillez préciser la filière"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "@cycle_ingénieur:(diplôme d'ingénieur)",
+      "dialog_node": "node_2_1550685367284",
+      "previous_sibling": "node_3_1550683062310"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "les 2 premières années sont celles du cycle préparatoire intégré ensuite le cycle ingénieur. Pour plus d'informations sur l'un deux, vous pouvez taper \"cycle prépa\" ou \"cycle ingénieur\""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_1_1550691245849",
+      "previous_sibling": "node_3_1550915777341"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "le cycle préparatoire dure 2 ans et a  pour objectif de faire maîtriser l'étudiant tous les outils mathématiques qui le préparent à bien entamer le cycle ingénieur"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1550683016116",
+      "metadata": {},
+      "conditions": "@cycle_prépa:(cycle prepa)",
+      "dialog_node": "node_3_1550683062310"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1551291035847",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1551291035847",
+      "previous_sibling": "handler_6_1551291035847"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1551291035847",
+      "event_name": "input",
+      "dialog_node": "handler_6_1551291035847"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1550738067770",
+      "dialog_node": "slot_1_1550744714368",
+      "previous_sibling": "node_4_1550744718696"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_1_1550738067770",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_4_1550744718696"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1551444238516",
+      "context": {
+        "emploi": "@emploi:emploi"
+      },
+      "metadata": {},
+      "conditions": "@emploi:emploi",
+      "event_name": "input",
+      "dialog_node": "handler_5_1551444238516",
+      "previous_sibling": "handler_6_1551444238516"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1551444238516",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1551444274285",
+      "previous_sibling": "handler_5_1551444238516"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "votre classe ?"
+      },
+      "parent": "slot_4_1551444238516",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1551444238516"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1550744714368",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1550744714368",
+      "previous_sibling": "handler_2_1550744714368"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1550744714368",
+      "event_name": "input",
+      "dialog_node": "handler_2_1550744714368"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1550863283074",
+      "metadata": {},
+      "variable": "$emploi",
+      "dialog_node": "slot_4_1551444238516",
+      "previous_sibling": "node_15_1551448782008"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1550863283074",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$filiere",
+      "dialog_node": "slot_2_1551441633911",
+      "previous_sibling": "slot_4_1551444238516"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1550863283074",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1550916045070",
+      "previous_sibling": "slot_2_1551441633911"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_3_1550863283074",
+      "metadata": {},
+      "dialog_node": "node_15_1551448782008"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "tu as le choix entre  ces 3 numéros :(+216) 71 703 829 / 71 703 929 / 71 703 627"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1554043043205",
+      "metadata": {},
+      "conditions": "@contact:téléphone",
+      "dialog_node": "node_15_1554043083966",
+      "previous_sibling": "node_14_1554043061984"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Humm le bureau de service de scolarité se trouve dans l'administration de l'INSAT au  premier étage"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1554043043205",
+      "metadata": {},
+      "conditions": "@contact:(service de scolarité)",
+      "dialog_node": "node_16_1554043103313",
+      "previous_sibling": "node_15_1554043083966"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dis moi tu veux le numéro de  fax ou le numéro de téléphone ?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_13_1554043043205",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_17_1554043142388",
+      "previous_sibling": "node_16_1554043103313"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "le numéro de fax est : (+216) 71 704 329"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1554043043205",
+      "metadata": {},
+      "conditions": "@contact:fax",
+      "dialog_node": "node_14_1554043061984"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961770.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-1 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_29_1553873597117",
+      "previous_sibling": "handler_28_1553873491764"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963078.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-3 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1551446449202",
+      "previous_sibling": "handler_4_1551446265675"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962594.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-1 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_21_1553873205820",
+      "previous_sibling": "handler_20_1553873178470"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962609.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-2 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_14_1553872806667",
+      "previous_sibling": "handler_13_1553872782249"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962732.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-2 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1551453505693",
+      "previous_sibling": "handler_1_1551453454729"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961782.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-3 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1551450437805",
+      "previous_sibling": "handler_3_1551450414072"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963131.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-2 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1551448573181",
+      "previous_sibling": "handler_8_1551448479231"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962709.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-1 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1553871825617",
+      "previous_sibling": "handler_2_1553871756675"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962594.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-2 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_20_1553873178470",
+      "previous_sibling": "handler_19_1553873145240"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962596.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-2 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_22_1553873228894",
+      "previous_sibling": "handler_21_1553873205820"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961781.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-2 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1551450414072",
+      "previous_sibling": "handler_2_1551450381192"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962722.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-1 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1551451891762",
+      "previous_sibling": "handler_9_1551451860371"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963066.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-1 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_17_1551442941637",
+      "previous_sibling": "handler_3_1551441633911"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962610.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-1 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_15_1553872828688",
+      "previous_sibling": "handler_14_1553872806667"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962709.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-1 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1551453454729",
+      "previous_sibling": "handler_13_1551451966574"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963132.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-1 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1551448618293",
+      "previous_sibling": "handler_9_1551448573181"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961784.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-4 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1551450475194",
+      "previous_sibling": "handler_4_1551450437805"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962605.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-2 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_12_1553872757764",
+      "previous_sibling": "handler_11_1553872054233"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963068.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-2 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1551445411921",
+      "previous_sibling": "handler_17_1551442941637"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961772.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-2 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_30_1553873619480",
+      "previous_sibling": "handler_29_1553873597117"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963072.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-4 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1551446172528",
+      "previous_sibling": "handler_1_1551446126096"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961786.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-1 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1551450497143",
+      "previous_sibling": "handler_5_1551450475194"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963089.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-1 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1551448171686",
+      "previous_sibling": "handler_3_1551448125264"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962715.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-1 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1553871942480",
+      "previous_sibling": "handler_6_1553871916212"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962607.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-1 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1553872782249",
+      "previous_sibling": "handler_12_1553872757764"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962717.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-2 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1553871977968",
+      "previous_sibling": "handler_7_1553871942480"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961767.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-1 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_27_1553873368470",
+      "previous_sibling": "handler_26_1553873332444"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963138.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:5-1 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_14_1551448761156",
+      "previous_sibling": "handler_13_1551448713336"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963080.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-4 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1551446512450",
+      "previous_sibling": "handler_5_1551446449202"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963083.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-2 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1551448031645",
+      "previous_sibling": "handler_7_1551446713211"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962597.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-1 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_23_1553873252440",
+      "previous_sibling": "handler_22_1553873228894"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962600.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-1 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_25_1553873306149",
+      "previous_sibling": "handler_24_1553873282087"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963136.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-2 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1551448713336",
+      "previous_sibling": "handler_12_1551448681819"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963128.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-4 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1551448404472",
+      "previous_sibling": "handler_6_1551448284154"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961778.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-1 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_34_1553873717533",
+      "previous_sibling": "handler_33_1553873694722"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962724.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-2 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_11_1551451922397",
+      "previous_sibling": "handler_10_1551451891762"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962599.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-2 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_24_1553873282087",
+      "previous_sibling": "handler_23_1553873252440"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962590.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-1 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_19_1553873145240",
+      "previous_sibling": "handler_18_1553873122588"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962710.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-2 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1553871859200",
+      "previous_sibling": "handler_3_1553871825617"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962614.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-1 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_17_1553873099673",
+      "previous_sibling": "handler_16_1553873072027"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962604.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-1 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_11_1553872054233",
+      "previous_sibling": "handler_10_1553872029300"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963070.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-3 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1551446126096",
+      "previous_sibling": "handler_4_1551445411921"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963091.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-2 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1551448204693",
+      "previous_sibling": "handler_4_1551448171686"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963074.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-2 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1551446265675",
+      "previous_sibling": "handler_3_1551446206279"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963081.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-1 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1551446713211",
+      "previous_sibling": "handler_6_1551446512450"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962616.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-2 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_18_1553873122588",
+      "previous_sibling": "handler_17_1553873099673"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "quelle est votre classe ?"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@emploi",
+      "event_name": "nomatch",
+      "dialog_node": "handler_12_1551444613931",
+      "previous_sibling": "handler_34_1553873717533"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962712.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-1 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1553871891784",
+      "previous_sibling": "handler_4_1553871859200"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963087.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-4 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1551448125264",
+      "previous_sibling": "handler_2_1551448068783"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962719.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-1 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1553872002277",
+      "previous_sibling": "handler_8_1553871977968"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961790.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-4 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1551451860371",
+      "previous_sibling": "handler_8_1551451848706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961769.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:2-2 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_28_1553873491764",
+      "previous_sibling": "handler_27_1553873368470"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961773.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-1 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_31_1553873647020",
+      "previous_sibling": "handler_30_1553873619480"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/Fr/image.php?id=5678"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-2 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1551451966574",
+      "previous_sibling": "handler_12_1551451943044"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963139.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:5-2 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_16_1551448799729",
+      "previous_sibling": "handler_14_1551448761156"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961780.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:1-1 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1551450381192",
+      "previous_sibling": "handler_16_1551448799729"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962726.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-1 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_12_1551451943044",
+      "previous_sibling": "handler_11_1551451922397"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963134.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-2 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_11_1551448652481",
+      "previous_sibling": "handler_10_1551448618293"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963130.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-1 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1551448479231",
+      "previous_sibling": "handler_7_1551448404472"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962734.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-2 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1553871756675",
+      "previous_sibling": "handler_1_1553871724028"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963074.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-1 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1551446206279",
+      "previous_sibling": "handler_2_1551446172528"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962713.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:3-2 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1553871916212",
+      "previous_sibling": "handler_5_1553871891784"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961788.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-3 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1551451848706",
+      "previous_sibling": "handler_7_1551450571473"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961787.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:2-2 && @filière:cba",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1551450571473",
+      "previous_sibling": "handler_6_1551450497143"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961775.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-2 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_32_1553873672794",
+      "previous_sibling": "handler_31_1553873647020"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535961777.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-1 && @filière:bio",
+      "event_name": "filled",
+      "dialog_node": "handler_33_1553873694722",
+      "previous_sibling": "handler_32_1553873672794"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963085.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:3-3 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1551448068783",
+      "previous_sibling": "handler_1_1551448031645"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962602.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-2 && @filière:ch",
+      "event_name": "filled",
+      "dialog_node": "handler_26_1553873332444",
+      "previous_sibling": "handler_25_1553873306149"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962734.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-1 && @filière:imi",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1553871724028",
+      "previous_sibling": "handler_2_1551453505693"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963134.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-1 && @filière:rt",
+      "event_name": "filled",
+      "dialog_node": "handler_12_1551448681819",
+      "previous_sibling": "handler_11_1551448652481"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962613.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:4-2 && @filière:gl",
+      "event_name": "filled",
+      "dialog_node": "handler_16_1553873072027",
+      "previous_sibling": "handler_15_1553872828688"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1551441633911",
+      "context": {
+        "filiere": "@niveau && @filière"
+      },
+      "metadata": {},
+      "conditions": "@niveau && @filière",
+      "event_name": "input",
+      "dialog_node": "handler_3_1551441633911",
+      "previous_sibling": "handler_4_1551441633911"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535962720.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "conditions": "@niveau:5-2 && @filière:iia",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1553872029300",
+      "previous_sibling": "handler_9_1553872002277"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "http://www.insat.rnu.tn/upload/1535963127.pdf"
+          ]
+        }
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "conditions": "@niveau:4-3 && @filière:mpi",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1551448284154",
+      "previous_sibling": "handler_5_1551448204693"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "quelle est votre classe! mpi 1-1 ? gl 2-1 ? rt 3-2 ? ..."
+      },
+      "parent": "slot_2_1551441633911",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1551441633911"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Humm, il s'agit d'un nouveau organisme ..mmm laisse moi un peu de temps pour faire mon enquête "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1551283521431",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1551284318637"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ce département concerne les filières IMI et IIA .Son directeur est MR.Samir Hamza .Si tu as besoin  de plus d'information concernant les laboratoires et les professeurs   consulte ce lien http://www.insat.rnu.tn/Fr/departements_11_51#?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1554041882243",
+      "metadata": {},
+      "conditions": "@département",
+      "dialog_node": "node_5_1554042007840",
+      "previous_sibling": "node_4_1554041978947"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ce département propose plusieures matières autour  de l’économie, de la gestion, du droit, de la sociologie et des langues .Sa directrice est MRS.Naouel abdelmoula .Si tu as besoin  de plus d'information concernant les enseignants  consulte ce lien http://www.insat.rnu.tn/Fr/departements_11_51#?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1554041882243",
+      "metadata": {},
+      "conditions": "@Département:(Sciences sociales , langue et formation générale)",
+      "dialog_node": "node_3_1554041948844",
+      "previous_sibling": "node_2_1554041922929"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quel département ?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1554041882243",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_25_1554050791153",
+      "previous_sibling": "node_5_1554042007840"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ce département concerne les filières CH et BIO .Son directeur est MR.Hassib bouallagui .Si tu as besoin  de plus d'information concernant les laboratoires et les professeurs   consulte ce lien http://www.insat.rnu.tn/Fr/departements_11_51#?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1554041882243",
+      "metadata": {},
+      "conditions": "@Département:(Génie Biologique et de Chimie)",
+      "dialog_node": "node_4_1554041978947",
+      "previous_sibling": "node_3_1554041948844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ce département concerne les filières RT et GL .Son directeur est MR.Ali Abdennadher .Si tu as besoin  de plus d'information concernant les laboratoires et les professeurs   consulte ce lien http://www.insat.rnu.tn/Fr/departements_11_51#?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1554041882243",
+      "metadata": {},
+      "conditions": "@Département:(Génie Informatique et Mathématiques)",
+      "dialog_node": "node_2_1554041922929"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "tu cherche le stage PFE , stage d'éte ou stage de licence appliquée ?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_18_1554049743779",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_24_1554050244103",
+      "previous_sibling": "node_23_1554050116860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "les bureaux de stage sont au 2ème étage prés de la salle 21-21"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_18_1554049743779",
+      "metadata": {},
+      "conditions": "@stage:responsable",
+      "dialog_node": "node_23_1554050116860",
+      "previous_sibling": "node_22_1554050041318"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "c'est un stage pour les étudiants en mastère à l'INSAT"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_18_1554049743779",
+      "metadata": {},
+      "conditions": "@stage:(pfe mastère)",
+      "dialog_node": "node_21_1554049924023",
+      "previous_sibling": "node_20_1554049852932"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "c'est un stage pour les étudiants en licence appliquée à l'INSAT .Pour plus de détails consultez ce lien : http://www.insat.rnu.tn/Fr/pfe-licences-appliquees_11_109"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_18_1554049743779",
+      "metadata": {},
+      "conditions": "@stage:(pfe licence appliquée)",
+      "dialog_node": "node_22_1554050041318",
+      "previous_sibling": "node_21_1554049924023"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "c'est un stage obligatoire d'un mois pour les étudiants des 3éme et 4eme années. Por plus de détails consultez ce lien : http://www.insat.rnu.tn/Fr/stages-dete_11_19"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_18_1554049743779",
+      "metadata": {},
+      "conditions": "@stage:été",
+      "dialog_node": "node_20_1554049852932",
+      "previous_sibling": "node_19_1554049754858"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "C'est un stage qui dure en général 6mois . Pour plus d'information sur le dossier requis , consultez ce lien  : http://www.insat.rnu.tn/Fr/pfe-ingenieurs_11_18"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1554049743779",
+      "metadata": {},
+      "conditions": "@stage:(PFE ingénieurs)",
+      "dialog_node": "node_19_1554049754858"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pour l'inscription au cours de Redhat , contacter MR.Mustapha Hamdi , voici son e-mail : mustapha.hamdi@insat.u-carthage.tn"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1554042592181",
+      "metadata": {},
+      "conditions": "@Cours:Redhat",
+      "dialog_node": "node_9_1554042649614",
+      "previous_sibling": "node_8_1554042607375"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pour l'inscription au cours d'IBM , contacter MR.Mustapha Hamdi , voici son e-mail : mustapha.hamdi@insat.u-carthage.tn"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1554042592181",
+      "metadata": {},
+      "conditions": "@Cours:IBM",
+      "dialog_node": "node_10_1554042673978",
+      "previous_sibling": "node_9_1554042649614"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Emm dis moi quel cours tu cherche ?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1554042592181",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_12_1554042727502",
+      "previous_sibling": "node_11_1554042702917"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici quelques liens du cours de STM32 , ces cours sont préparés par MR.Mustapha Hamdi : https://fr.scribd.com/doc/251877579/SOCIIA5-Hamdi-pdf"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_7_1554042592181",
+      "metadata": {},
+      "conditions": "@Cours:stm32",
+      "dialog_node": "node_11_1554042702917",
+      "previous_sibling": "node_10_1554042673978"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pour l'inscription au cours de LORAwan , contacter MR.Mustapha Hamdi , voici son e-mail : mustapha.hamdi/@insat.u-carthage.tn"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1554042592181",
+      "metadata": {},
+      "conditions": "@Cours:LORAwan",
+      "dialog_node": "node_8_1554042607375"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#département",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1554041882243",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1553876274058"
+    },
+    {
+      "type": "frame",
+      "title": "emplois du temps",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#emploi",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1550863283074",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1550860671614",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "salutation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "re-bonjour! il semble que vous êtes en bonne humeur aujourd'hui"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#salutation",
+      "dialog_node": "node_1_1553876274058",
+      "previous_sibling": "node_4_1551290946228"
+    },
+    {
+      "type": "standard",
+      "title": "4C insat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Humm, il s'agit d'un nouveau organisme ..mmm laisse moi un peu de temps pour chercher un peu"
+              },
+              {
+                "text": "Le centre 4C-Insat représente le maillon entre l'institut et l'entreprise. Il offre des formations en collaboration avec les acteurs socio-économiques. Il est dirigé par : Mme Lilia Sfaxi, Mme Naouel Abdelmoula et Mme Faten chaieb.Voici sa page Facebook :https://www.facebook.com/pg/Insat4c/about/?ref=page_internal"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#4C_insat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1551283521431",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1551041735598"
+    },
+    {
+      "type": "standard",
+      "title": "buvette",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Félicitations ! Vous avez fait le bon choix , prendre une pause à la buvette est une bonne idée,  profitez de la verdure aux alentours !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#buvette",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1550738067770",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1550683016116"
+    },
+    {
+      "type": "standard",
+      "title": "adresse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "bien reçu,votre demande est en cours de traitement, vous l'aurez dans moins de 15 minutes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#adresse",
+      "dialog_node": "node_1_1550745557038",
+      "previous_sibling": "node_1_1550738067770"
+    },
+    {
+      "type": "standard",
+      "title": "formation",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#formation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1550683016116",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1550674981791"
+    },
+    {
+      "type": "standard",
+      "title": "scolarité",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#scolarité",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1550860671614",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1550745557038"
+    },
+    {
+      "type": "standard",
+      "title": "Certif",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#certification",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1551041735598",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1550863283074"
+    },
+    {
+      "type": "standard",
+      "title": "stage",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#stage",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_18_1554049743779",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_13_1554043043205"
+    },
+    {
+      "type": "standard",
+      "title": "guide de l'étudiant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mmm, il semble que vous êtes un nouveau étudiant ! bienvenue !!  le guide de l'étudiant décrit le cursus de formation de l'INSAT ainsi que les dispositions  disciplinaires. Voici son lien : http://www.insat.rnu.tn/upload/1523034377.pdf"
+              },
+              {
+                "text": "Vous avez fait  le bon choix, l'INSAT est un excellent institut! n'hésitez pas à me contacter à tout moment ! au revoir"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1551293976301"
+      },
+      "conditions": "#guide_Etudiant",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1551290946228",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1551283521431"
+    },
+    {
+      "type": "standard",
+      "title": "cours",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#cours",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1554042592181",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1554041882243"
+    },
+    {
+      "type": "standard",
+      "title": "location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pour accèder à l'INSAT, vous pouvez empreinter le métro (ligne 2) reliant Tunis (station de la République) à Ariana, et descendre à la station \"El Fell\", qui est à 200 métres de l'Institut. Sinon, le Bus numéro 35 B, peut faire l'affaire, il relie Tunis (Station du TGM) à Ariana, il vous déposera juste devant le portail de l'INSAT."
+              },
+              {
+                "text": "voici l'adresse :  676 INSAT Centre Urbain Nord BP، Tunis Cedex 1080"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#location",
+      "dialog_node": "node_2_1550674981791",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "j'ai pas bien compris, pouvez vous le dire autrement ?"
+              },
+              {
+                "text": "pouvez-vous répéter votre phrase ? j'arrive pas à comprendre"
+              },
+              {
+                "text": "j'ai pas compris"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_18_1554049743779"
+    },
+    {
+      "type": "standard",
+      "title": "contact",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#contact",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1554043043205",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1554042592181"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "bonjour comment je peux vous aider ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "03a0def9-21ac-4a6d-a970-8114c1fe716a",
+  "counterexamples": [
+    {
+      "text": "ok"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
